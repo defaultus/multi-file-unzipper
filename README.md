@@ -3,11 +3,11 @@ a 'customizable' multi file unzipper written in python using the tkinter library
 
 # how to use
 1. install 7zip cli tool, this is used to do the actual unzipping. <br>
-     For windows you can install 7zip cli via its official [downloads page](https://www.7-zip.org/) <br>
-     For linux you can insstall 8zip cli via a simple command: ``` sudo apt install p7zip-full ```
-3. have python installed
-4. ``` pip install -r requirements.txt ``` to install its requirements (which is only 2 items).
-5. ``` pytohn3 main.py ``` to run and use the app.
+    For windows you can install 7zip cli via its official [downloads page](https://www.7-zip.org/) 
+    For Linux you can install 8zip cli via a simple command: ``` sudo apt install p7zip-full ```
+2. have python installed
+3. ``` pip install -r requirements.txt ``` to install its requirements (which is only 2 items).
+4. ``` pytohn3 main.py ``` to run and use the app.
 
 
 # clarification and a lack of experience
