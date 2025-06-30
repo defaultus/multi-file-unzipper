@@ -84,7 +84,7 @@ def check_unzip_complete(archive_folder_list: list[Path]):
 def on_close():
     with lock:
         if any(not futures.done() for futures in running_futures): # checks if tthere are unfinished threads
-            tb.messagebox.showinfo("Please wait", "Extraction is still running. Please wait before closing.")
+            ttk.messagebox.showinfo("Please wait", "Extraction is still running. Please wait before closing.")
             return
         window.destroy()
     
